@@ -14,6 +14,7 @@
 		241AFC6C2884DDCF00E620FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 241AFC6B2884DDCF00E620FB /* Assets.xcassets */; };
 		241AFC6F2884DDCF00E620FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 241AFC6D2884DDCF00E620FB /* LaunchScreen.storyboard */; };
 		241AFC772884FE5200E620FB /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241AFC762884FE5200E620FB /* SettingTableViewController.swift */; };
+		241AFC7928857F9C00E620FB /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241AFC7828857F9C00E620FB /* SettingsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		241AFC6E2884DDCF00E620FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		241AFC702884DDCF00E620FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		241AFC762884FE5200E620FB /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		241AFC7828857F9C00E620FB /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				241AFC662884DDCC00E620FB /* ViewController.swift */,
 				241AFC682884DDCC00E620FB /* Main.storyboard */,
 				241AFC762884FE5200E620FB /* SettingTableViewController.swift */,
+				241AFC7828857F9C00E620FB /* SettingsTableViewController.swift */,
 				241AFC6B2884DDCF00E620FB /* Assets.xcassets */,
 				241AFC6D2884DDCF00E620FB /* LaunchScreen.storyboard */,
 				241AFC702884DDCF00E620FB /* Info.plist */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				241AFC772884FE5200E620FB /* SettingTableViewController.swift in Sources */,
+				241AFC7928857F9C00E620FB /* SettingsTableViewController.swift in Sources */,
 				241AFC672884DDCC00E620FB /* ViewController.swift in Sources */,
 				241AFC632884DDCC00E620FB /* AppDelegate.swift in Sources */,
 				241AFC652884DDCC00E620FB /* SceneDelegate.swift in Sources */,
