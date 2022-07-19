@@ -15,6 +15,17 @@
 		241AFC6F2884DDCF00E620FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 241AFC6D2884DDCF00E620FB /* LaunchScreen.storyboard */; };
 		241AFC772884FE5200E620FB /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241AFC762884FE5200E620FB /* SettingTableViewController.swift */; };
 		241AFC7928857F9C00E620FB /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241AFC7828857F9C00E620FB /* SettingsTableViewController.swift */; };
+		24F770A128864014007A7D4F /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24F770A028864014007A7D4F /* Search.storyboard */; };
+		24F770A32886403E007A7D4F /* Trend.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24F770A22886403E007A7D4F /* Trend.storyboard */; };
+		24F770A628864076007A7D4F /* Intro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24F770A528864076007A7D4F /* Intro.storyboard */; };
+		24F770A8288643F7007A7D4F /* TrendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F770A7288643F7007A7D4F /* TrendViewController.swift */; };
+		24F770AA28864412007A7D4F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F770A928864412007A7D4F /* SearchViewController.swift */; };
+		24F770AC28864517007A7D4F /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F770AB28864517007A7D4F /* UIViewController+Extension.swift */; };
+		24F770AE2886477C007A7D4F /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F770AD2886477C007A7D4F /* UITextField+Extension.swift */; };
+		24F770B028864B99007A7D4F /* BucketListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F770AF28864B99007A7D4F /* BucketListTableViewController.swift */; };
+		24F770B328864D95007A7D4F /* BucketListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F770B128864D95007A7D4F /* BucketListTableViewCell.swift */; };
+		24F770B62886BFCC007A7D4F /* SearchMovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F770B52886BFCC007A7D4F /* SearchMovieTableViewCell.swift */; };
+		24F770B82886C184007A7D4F /* SearchMovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F770B72886C184007A7D4F /* SearchMovieTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +39,17 @@
 		241AFC702884DDCF00E620FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		241AFC762884FE5200E620FB /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 		241AFC7828857F9C00E620FB /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		24F770A028864014007A7D4F /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		24F770A22886403E007A7D4F /* Trend.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Trend.storyboard; sourceTree = "<group>"; };
+		24F770A528864076007A7D4F /* Intro.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Intro.storyboard; sourceTree = "<group>"; };
+		24F770A7288643F7007A7D4F /* TrendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendViewController.swift; sourceTree = "<group>"; };
+		24F770A928864412007A7D4F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		24F770AB28864517007A7D4F /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		24F770AD2886477C007A7D4F /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		24F770AF28864B99007A7D4F /* BucketListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListTableViewController.swift; sourceTree = "<group>"; };
+		24F770B128864D95007A7D4F /* BucketListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListTableViewCell.swift; sourceTree = "<group>"; };
+		24F770B52886BFCC007A7D4F /* SearchMovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMovieTableViewCell.swift; sourceTree = "<group>"; };
+		24F770B72886C184007A7D4F /* SearchMovieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMovieTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +82,10 @@
 		241AFC612884DDCC00E620FB /* TrendMedia */ = {
 			isa = PBXGroup;
 			children = (
+				24F770A428864045007A7D4F /* Storyboard */,
 				241AFC622884DDCC00E620FB /* AppDelegate.swift */,
 				241AFC642884DDCC00E620FB /* SceneDelegate.swift */,
 				241AFC662884DDCC00E620FB /* ViewController.swift */,
-				241AFC682884DDCC00E620FB /* Main.storyboard */,
 				241AFC762884FE5200E620FB /* SettingTableViewController.swift */,
 				241AFC7828857F9C00E620FB /* SettingsTableViewController.swift */,
 				241AFC6B2884DDCF00E620FB /* Assets.xcassets */,
@@ -71,6 +93,25 @@
 				241AFC702884DDCF00E620FB /* Info.plist */,
 			);
 			path = TrendMedia;
+			sourceTree = "<group>";
+		};
+		24F770A428864045007A7D4F /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				241AFC682884DDCC00E620FB /* Main.storyboard */,
+				24F770A028864014007A7D4F /* Search.storyboard */,
+				24F770B52886BFCC007A7D4F /* SearchMovieTableViewCell.swift */,
+				24F770B72886C184007A7D4F /* SearchMovieTableViewController.swift */,
+				24F770A928864412007A7D4F /* SearchViewController.swift */,
+				24F770A22886403E007A7D4F /* Trend.storyboard */,
+				24F770B128864D95007A7D4F /* BucketListTableViewCell.swift */,
+				24F770A7288643F7007A7D4F /* TrendViewController.swift */,
+				24F770AF28864B99007A7D4F /* BucketListTableViewController.swift */,
+				24F770A528864076007A7D4F /* Intro.storyboard */,
+				24F770AB28864517007A7D4F /* UIViewController+Extension.swift */,
+				24F770AD2886477C007A7D4F /* UITextField+Extension.swift */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,9 +172,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24F770A32886403E007A7D4F /* Trend.storyboard in Resources */,
 				241AFC6F2884DDCF00E620FB /* LaunchScreen.storyboard in Resources */,
 				241AFC6C2884DDCF00E620FB /* Assets.xcassets in Resources */,
+				24F770A128864014007A7D4F /* Search.storyboard in Resources */,
 				241AFC6A2884DDCC00E620FB /* Main.storyboard in Resources */,
+				24F770A628864076007A7D4F /* Intro.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,10 +188,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24F770B82886C184007A7D4F /* SearchMovieTableViewController.swift in Sources */,
+				24F770AE2886477C007A7D4F /* UITextField+Extension.swift in Sources */,
+				24F770B328864D95007A7D4F /* BucketListTableViewCell.swift in Sources */,
+				24F770B028864B99007A7D4F /* BucketListTableViewController.swift in Sources */,
+				24F770AC28864517007A7D4F /* UIViewController+Extension.swift in Sources */,
 				241AFC772884FE5200E620FB /* SettingTableViewController.swift in Sources */,
+				24F770AA28864412007A7D4F /* SearchViewController.swift in Sources */,
+				24F770B62886BFCC007A7D4F /* SearchMovieTableViewCell.swift in Sources */,
 				241AFC7928857F9C00E620FB /* SettingsTableViewController.swift in Sources */,
 				241AFC672884DDCC00E620FB /* ViewController.swift in Sources */,
 				241AFC632884DDCC00E620FB /* AppDelegate.swift in Sources */,
+				24F770A8288643F7007A7D4F /* TrendViewController.swift in Sources */,
 				241AFC652884DDCC00E620FB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
