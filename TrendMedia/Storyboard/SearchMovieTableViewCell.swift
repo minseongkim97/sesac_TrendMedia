@@ -23,5 +23,11 @@ class SearchMovieTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+    func configureCell(movie: Movie) {
+        titleLabel.text = movie.title
+        dateLabel.text = movie.releaseDate
+        descriptionLabel.text = movie.overview
+    }
 
 }
